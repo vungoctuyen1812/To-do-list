@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+
+body{
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+.container{
+	justify-content: center;
+	margin: 100px auto;
+	width: 500px;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: #EAEFD3;
+}
+
+.tittle{
+
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #DA667B;
+	margin-bottom: 20px
+
+}
+
+li{
+
+	display: flex;
+	margin: 20px;
+	transition: all 1s ease-in-out;
+}
+
+li .text{
+	flex-grow: 1;
+	text-transform: capitalize;
+	opacity: 0.5
+}
+
+li .text:hover{
+	opacity: 1
+}
+
+li button{
+	padding-right: 10px;
+	font-size: 25px;
+	border: none;
+	color: #DA667B;
+	background-color: #EAEFD3; 
+	transition: all 0.5s ;
+	
+}
+
+li button:hover{
+	color: black;
+	transform: scale(2, 0.7) translate(3px);
+
+
+}
+
+.input{
+	display: flex;
+
+}
+
+#input-data{
+
+	border: none;
+	border-radius: 30px;
+	padding-left: 20px;
+
+	margin: 0px;
+	flex-grow: 1;
+	font-size: 18px;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#input-data:focus{
+
+}
+
+.input #btn-add{
+	padding : 20px;
+	margin: 0px 10px 0px 10px;
+	border-radius: 40px;
+	font-size: 10px;
+	box-shadow: 0px 0px 3px;
+	background-color: #DA667B;
+	border: none;
+}
